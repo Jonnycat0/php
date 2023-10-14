@@ -1,9 +1,9 @@
 <?php
 
-$server = 'https://quesadilla.orgfree.com/pma';
-$username = '1407902';
+$server = 'localhost';
+$username = 1407902;
 $password = 'Jonalex.554';
-$database = '1407902';
+$database = '1407902db2';
 
 try {
   $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
